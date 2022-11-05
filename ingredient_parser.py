@@ -12,6 +12,7 @@ import re
 import unidecode
 
 nltk.download('omw-1.4')
+nltk.download('wordnet')
 
 # Weigths and measures are words that will not add value to the model. I got these standard words from
 # https://en.wikibooks.org/wiki/Cookbook:Units_of_measurement
